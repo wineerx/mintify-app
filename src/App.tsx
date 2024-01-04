@@ -97,14 +97,8 @@ function App() {
 
         <aside className='h-screen w-64 bg-[#25272E] border-r-[1px] border-[#383940] p-8'>
 
-          <menu className='flex flex-col space-y-3'>
-
-            <div className='flex justify-between border-b border-[#383940] pb-2'>
-              <h1 className='text-white font-medium text-lg'>Suporte</h1>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M7.41 8.59L12 13.17L16.59 8.59L18 10L12 16L6 10L7.41 8.59Z" fill="white" />
-              </svg>
-            </div>
+          <menu className='flex flex-col space-y-4'>
+            <Accordion></Accordion>
 
           </menu>
 

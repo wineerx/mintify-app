@@ -13,7 +13,7 @@ Siga estes passos para configurar o Mintify App em sua máquina local:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-nome-de-usuário/mintify-app.git
+   git clone https://github.com/wineerx/mintify-app.git
    ```
 
 2. Navegue até o diretório do projeto:

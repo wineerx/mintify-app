@@ -17,7 +17,6 @@ export const Items = () => {
       price: 0.001,
       svg: Cat
     },
-
     {
       name: 'Mirror Glass Efect',
       origin: 'Pixart Motion',
@@ -55,18 +54,17 @@ export const Items = () => {
       svg: Anemic
     },
     {
-      name: 'Motion viem',
+      name: 'Bi-conditional Effect',
       origin: 'Pixart Motion',
-      price: 0.009,
-      svg: Dog
+      price: 0.002,
+      svg: Anemic
     }
-
   ]
 
   return <>
 
-    {dataNft.map((data, _) => (
-      <div className='flex flex-col'>
+    {dataNft.map((data, i) => (
+      <div key={i} className='flex flex-col'>
         <img src={data.svg} alt="" />
         <div className='bg-gray-400 rounded-b-xl space-y-1 '>
           <div className='p-4 mb-[55px]'>

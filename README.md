@@ -1,30 +1,98 @@
-# React + TypeScript + Vite
+# Mintify App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Visão Geral
 
-Currently, two official plugins are available:
+O Mintify App é um projeto que integra perfeitamente o sistema de design Flowbite UI ao seu código, utilizando Vite, React, Tailwind CSS e TypeScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Como Começar
 
-## Expanding the ESLint configuration
+Siga estes passos para configurar o Mintify App em sua máquina local:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone o repositório:
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+   git clone https://github.com/seu-nome-de-usuário/mintify-app.git
+   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd mintify-app
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+## Scripts Disponíveis
+
+### `npm run dev`
+
+Execute o servidor de desenvolvimento usando o Vite:
+
+```bash
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### `npm run build`
+
+Compile o projeto para produção:
+
+```bash
+npm run build
+```
+
+### `npm run lint`
+
+Execute o ESLint para verificar o código TypeScript e React:
+
+```bash
+npm run lint
+```
+
+### `npm run preview`
+
+Visualize a compilação de produção localmente:
+
+```bash
+npm run preview
+```
+
+## Estrutura do Projeto
+
+- `src/`: Contém o código-fonte da aplicação.
+- `public/`: Ativos estáticos e modelo HTML.
+- `tsconfig.json`: Arquivo de configuração TypeScript.
+- `vite.config.js`: Arquivo de configuração Vite.
+
+## Dependências
+
+- `flowbite-react`: ^0.7.0
+- `react`: ^18.2.0
+- `react-dom`: ^18.2.0
+
+## Dependências de Desenvolvimento
+
+- `@types/react`: ^18.2.37
+- `@types/react-dom`: ^18.2.15
+- `@typescript-eslint/eslint-plugin`: ^6.10.0
+- `@typescript-eslint/parser`: ^6.10.0
+- `@vitejs/plugin-react`: ^4.2.0
+- `autoprefixer`: ^10.4.16
+- `eslint`: ^8.53.0
+- `eslint-plugin-react-hooks`: ^4.6.0
+- `eslint-plugin-react-refresh`: ^0.4.4
+- `postcss`: ^8.4.31
+- `tailwindcss`: ^3.3.5
+- `typescript`: ^5.2.2
+- `vite`: ^5.0.0
+
+## Restrições de Uso
+
+Este projeto destina-se apenas a uso não comercial. Qualquer forma de distribuição ou revenda comercial é estritamente proibida.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).

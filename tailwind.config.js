@@ -1,12 +1,29 @@
-  // tailwind.config.js
-  module.exports = {
-    purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-     darkMode: 'class', // or 'media' or 'class'
-     theme: {
-       extend: {},
-     },
-     variants: {
-       extend: {},
-     },
-     plugins: [],
-   }
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        gray: {
+          //#383940
+          //#373943
+          //#828282
+          100: '#828282',
+          200: '#343741',
+          400: '#272A34',
+          600: '#25272E'
+        },
+        green: {
+          600: '#38F2AF',
+        },
+        white: {
+          100: '#FFF'
+        }
+      },
+    },
+  },
+  plugins: [],
+}

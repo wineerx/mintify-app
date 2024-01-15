@@ -1,5 +1,7 @@
 # Mintify App
 
+![Design Sytem](https://i.imgur.com/TTt25Dn.png)
+
 ## Visão Geral
 
 O Mintify App é um projeto que integra perfeitamente o sistema de design Flowbite UI ao seu código, utilizando Vite, React, Tailwind CSS e TypeScript.

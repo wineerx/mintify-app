@@ -54,10 +54,10 @@ export const Items = () => {
       svg: Anemic
     },
     {
-      name: 'Bi-conditional Effect',
+      name: 'Motion viem',
       origin: 'Pixart Motion',
-      price: 0.002,
-      svg: Anemic
+      price: 0.009,
+      svg: Dog
     }
   ]
 
